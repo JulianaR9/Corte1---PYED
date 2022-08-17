@@ -33,3 +33,13 @@ p
     padding: 0px;
     font-size: 10px*1.5;
 }
+
+h1,h2 {
+    font-size: 50px*1.5;
+    font-family: 'Courgette', cursive;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 6em;
+}
