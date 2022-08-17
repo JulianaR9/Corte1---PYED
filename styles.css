@@ -43,3 +43,40 @@ h3 {
     font-family: 'Courgette', cursive;
     font-size: 6em;
 }
+
+ul:first-child {
+    color: orange;
+}
+
+li:first-child {
+    color: orange;
+}
+
+#inpput1:focus
+    {
+        background-color: crimson;
+    }
+
+span {
+    padding: 30px;
+    margin:10px;
+    display:block;
+}
+
+#dont {
+    background-color: rgba(40, 199, 247, 90);
+    font-size: 1.5em;
+}
+
+#doesnt 
+    {
+        background-color: #28C7F7 ;
+        font-size: 2e;
+    }
+
+.contenedor {
+    height: 400px;
+    width: 600px;
+    border: 8px dashed burlywood;
+}
+
