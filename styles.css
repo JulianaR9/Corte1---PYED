@@ -78,5 +78,9 @@ span {
     height: 400px;
     width: 600px;
     border: 8px dashed burlywood;
+    background-size:contain;
+    background-position:center;
+    border-radius: 40px;
+    margin-left:34vw;
 }
 
