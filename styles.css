@@ -1,0 +1,20 @@
+p
+{
+    text-align: center;
+    color: crimson;
+}
+#texto1
+{
+    color: blueviolet;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    font: 0;
+}
+#texto2
+{
+    font-size: 18px;
+    color: rgb(17, 20, 12);
+    font-family: 'Courgette', cursive;
+
+
+}
