@@ -15,6 +15,21 @@ p
     font-size: 18px;
     color: rgb(17, 20, 12);
     font-family: 'Courgette', cursive;
+}
 
+.cuardro{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    }
 
+#cuadro1:hoover{
+    background-color: coral;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px*1.5;
 }
