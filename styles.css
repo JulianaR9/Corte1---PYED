@@ -78,9 +78,19 @@ span {
     height: 400px;
     width: 600px;
     border: 8px dashed burlywood;
+    background-image: url(oso\ panda.jpg);
     background-size:contain;
     background-position:center;
     border-radius: 40px;
     margin-left:34vw;
+
 }
 
+.contenedor1
+{
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(to right, rgb(176, 88, 184),rgb(105, 206, 253));
+    height: 400vh;
+    width: 100%;
+    
+}
