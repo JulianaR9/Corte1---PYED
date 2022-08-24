@@ -78,7 +78,7 @@ span {
     height: 400px;
     width: 600px;
     border: 8px dashed burlywood;
-    background-image: url(oso\ panda.jpg);
+    background-image: url("./imagenes/oso\ panda.jpg");
     background-size:contain;
     background-position:center;
     border-radius: 40px;
@@ -89,8 +89,8 @@ span {
 .contenedor1
 {
     /* background-color: aquamarine; */
-    background-image: linear-gradient(to right, rgb(176, 88, 184),rgb(105, 206, 253));
-    height: 400vh;
+    background-image: radial-gradient(circle, rgba(176, 88, 184, 0.5),rgba(105, 206, 253, 0.5)),url("./imagenes/carrusel.jpg");
+    height: 40vh;
     width: 100%;
     
 }
