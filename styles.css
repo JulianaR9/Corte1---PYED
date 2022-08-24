@@ -185,6 +185,7 @@ span {
     position: fixed;
     right: 30px;
     top: 40px;
+    box-shadow: 5px 3px 10px gray;
 }
 
 .material-icons
