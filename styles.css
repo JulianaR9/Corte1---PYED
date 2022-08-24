@@ -149,3 +149,38 @@ span {
     70%{transform: translate(0px,600px) rotate(0deg) scale(3);}
 
 }
+
+.caja1
+{
+    background-color: darkmagenta;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px 20px 30px 40px;
+    border: 2px groove;
+    border-color: black;
+    padding: 10px 20px 30px 40px;
+    box-sizing: border-box;
+}
+
+.caja2
+{
+    background-color: darkorange;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px 20px 30px 40px;
+    border: 2px groove;
+    border-color: black;
+    padding: 10px 20px 30px 40px;
+    box-sizing: content-box;
+}
+
+.circulo
+{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    border-radius: 10em;
+    position: absolute;
+}
