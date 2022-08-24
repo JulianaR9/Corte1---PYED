@@ -182,5 +182,27 @@ span {
     width: 200px;
     height: 200px;
     border-radius: 10em;
-    position: absolute;
+    position: fixed;
+    right: 30px;
+    top: 40px;
 }
+
+.material-icons
+{
+    position: fixed;
+    right: 80px;
+    bottom: 760px;
+
+}
+
+.material-symbols-outlined {
+color: aliceblue;
+position: fixed; right:80px; bottom: 760px;  
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
+
