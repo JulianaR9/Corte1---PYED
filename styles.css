@@ -101,4 +101,35 @@ span {
     background-color: coral;
     height: 150px;
     width: 150px;
+    animation: coralanimacion 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes coralanimacion
+{
+    0%
+    {
+        background-color: coral;
+        transform: translateY(500px) rotate(10deg) scale(2); 
+    }
+
+    50%
+    {
+        background-color: deepskyblue;
+        transform: translateY(-50px) rotate(180deg) scale(6); 
+    }
+
+    100%
+    {
+        background-color: rgb(107, 196, 107);
+        transform: translate(200px) rotate(90deg) scale(2); 
+    }
+}
+
+.contenedorgift
+{
+    background-image: url(./imagenes/robot.gif);
+    height: 100px;
+    
+
 }
