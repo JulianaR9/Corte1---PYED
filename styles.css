@@ -105,7 +105,7 @@ span {
     animation-iteration-count: infinite;
 }
 
-@keyframes coralanimacion
+/*@keyframes coralanimacion
 {
     0%
     {
@@ -124,14 +124,23 @@ span {
         background-color: rgb(107, 196, 107);
         transform: translate(200px) rotate(90deg) scale(2); 
     }
-}
+}*/
 
 .contenedorgift
 {
     background-image: url(./imagenes/robot.gif);
+    background-size: cover;
     height: 100px;
     width: 100px;
     animation-name: robotcaminando;
-    
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes robotcaminando
+{
+    0% {transform: translate(0px) rotate(0deg) scale(2);}
+    20% {transform: translate(400px) rotate(20deg) scale(2);}
 
 }
