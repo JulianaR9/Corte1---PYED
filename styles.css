@@ -130,6 +130,8 @@ span {
 {
     background-image: url(./imagenes/robot.gif);
     height: 100px;
+    width: 100px;
+    animation-name: robotcaminando;
     
 
 }
