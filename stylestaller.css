@@ -56,5 +56,117 @@
     background-image: url("./imagenes/veintemil\ lenguas\ libro.jpg");
     background-size: contain;
     background-position: center;
-    margin-left: 5vw;
+    margin-left: 4vw;
+    margin-top: 5vh;
+
 }
+
+.contenedorL2
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/Dos\ años\ Libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 20vw;
+    margin-top: -31vh;
+}  
+
+.contenedorL3
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/la\ vuelta\ al\ mundo\ libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 36vw;
+    margin-top: -31vh;
+}
+
+.contenedorL4
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/Capintan\ 15\ años\ libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 52vw;
+    margin-top: -31vh;
+}
+.contenedorL5
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/viaje\ al\ centro\ libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 68vw;
+    margin-top: -31vh;
+}
+
+.contenedorL6
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/La\ isla\ Libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 82vw;
+    margin-top: -31vh;
+}
+
+/*segunda fila de libros*/
+.contenedorL7
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/Viaje\ a\ la\ luna\ Libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 12vw;
+    margin-top: 5vh;
+}  
+
+.contenedorL8
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/cinco\ semanas\ libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 28vw;
+    margin-top: -31vh;
+}  
+
+.contenedorL9
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/Escuela\ de\ robinsones\ libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 44vw;
+    margin-top: -31vh;
+}  
+
+.contenedorL10
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/Los\ hijos\ del\ capital\ Libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 60vw;
+    margin-top: -31vh;
+}  
+
+.contenedorL11
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("./imagenes/Miguel\ Strogoff\ Libro.jpg");
+    background-size: contain;
+    background-position: center;
+    margin-left: 76vw;
+    margin-top: -31vh;
+}  
