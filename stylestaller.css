@@ -1,22 +1,32 @@
 #Titulo
 {
     text-align: center;
-    color: crimson;
-
+    letter-spacing: 2px;
+    color: rgb(23, 85, 162);
     font-size: 40px;
 }
 
 .contenedor
 {
-    height: 500px;
-    width: 330px;
-    border: 5px solid rgb(0, 0, 0);
-    background-image: url("./imagenes/julio\ verne.jpg");
+    height: 430px;
+    width: 800px;
+    background-image: url("./imagenes/Julio\ Verne\ dibujo.jpg");
     background-size: contain;
     background-position: center;
-    border-radius: 5px;
-   margin-left: 40vw;
+    margin-left: 30vw;
 }
+/*Patron Submarino*/
+.contenedorpatron
+{
+    height: 40px;
+    width: 800px;
+    background-image: url("./imagenes/submarine_blue.png");
+    background-size: contain;
+    background-repeat: repeat;
+    margin-left: 30vw;
+    margin-top: -5vh;
+}
+
 #Parrafop
 {
     text-align: justify;
@@ -42,7 +52,8 @@
 #subtitulo
 {
     text-align: left;
-    color: rgb(214, 37, 43);
+    letter-spacing: 0.5px;
+    color: rgb(20, 77, 148); 
     font-family: 'Vollkorn', serif;
     font-size: 20px;
     font: 0;
@@ -72,7 +83,6 @@
     animation-iteration-count: infinite;
     margin-left: 73vw;
     margin-top: -148vh;
-
 }   
 
 @keyframes Globoanimacion
@@ -91,7 +101,6 @@
     background-position: center;
     margin-left: 4vw;
     margin-top: 5vh;
-
 }
 
 .contenedorL2
@@ -203,3 +212,18 @@
     margin-left: 76vw;
     margin-top: -31vh;
 }  
+
+.boton
+{
+    background-color: rgb(255, 255, 255);
+    width: 90px;
+    height: 90px;
+    -moz-border-radius: 50%;
+    border-radius: 50px;
+    box-shadow: -30px 10px 3px rgb(19, 82, 160);
+    position: fixed;
+    right: -35px;
+    bottom: 20px;  
+}
+
+
