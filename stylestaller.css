@@ -49,6 +49,39 @@
     padding-left: 12px;
 }
 
+ /*Maquina Voladora
+.contenedorM1
+{
+    height: 23vh;
+    width: 41vh;
+    background-image: url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/02/nautilus-1.jpg?resize=640%2C360&quality=80&ssl=1");
+    background-size: contain;
+    background-position: center;
+    margin-left: 74vw;
+    margin-top: -140vh;
+}*/
+/*Animacion*/
+.contenedoranimacion
+{
+    height: 24.5vh;
+    width: 22vw;
+    background-image: url(http://www.mipetitmadrid.com/web_mipetitmadrid/docs/julio_verne_marta_1.jpg);
+    background-size: 480px;
+    animation-name: Globoanimacion;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    margin-left: 73vw;
+    margin-top: -148vh;
+
+}   
+
+@keyframes Globoanimacion
+{
+    0%{transform: translateY(5px);}
+
+    50%{transform: translateY(505px);}
+}
+ 
 .contenedorL1
 {
     height: 300px;
@@ -109,7 +142,7 @@
     height: 300px;
     width: 200px;
     background-image: url("./imagenes/La\ isla\ Libro.jpg");
-    background-size: contain;
+    background-size: contain ;
     background-position: center;
     margin-left: 82vw;
     margin-top: -31vh;
@@ -154,7 +187,7 @@
     height: 300px;
     width: 200px;
     background-image: url("./imagenes/Los\ hijos\ del\ capital\ Libro.jpg");
-    background-size: contain;
+    background-size: contain +1;
     background-position: center;
     margin-left: 60vw;
     margin-top: -31vh;
