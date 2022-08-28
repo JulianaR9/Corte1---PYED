@@ -212,6 +212,48 @@
     margin-left: 76vw;
     margin-top: -31vh;
 }  
+/*Datos Curiosos*/
+#datos
+{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    font: 0;
+    padding-right: 0px;
+    padding-left: 20px;
+    padding-top: 130vh;
+}
+
+.vehiculoespacial
+{
+    background: radial-gradient(circle, rgba(63, 188, 251, 0.2) 0%, rgba(243, 70, 252, 0.3) 100%), url(./imagenes/vehiculo\ espacial\ JV.jpg);
+    background-size: cover;
+    height: 25vh;
+    width: 20vw;
+    margin-top: -1vh;
+    margin-left: 12vw;
+}
+
+.vehiculoespacial2
+{
+    background: radial-gradient(circle, rgba(63, 188, 251, 0.2) 0%, rgba(243, 70, 252, 0.3) 100%), url(./imagenes/vehiculo\ espacial\ JV\ 2.jpg);
+    background-size: cover;
+    height: 25vh;
+    width: 20vw;
+    margin-top: -25vh;
+    margin-left: 37vw;
+}
+
+.vehiculoespacial3
+{
+    background: radial-gradient(circle, rgba(63, 188, 251, 0.2) 0%, rgba(243, 70, 252, 0.3) 100%), url(./imagenes/vehiculo\ espacial\ JV\ 3.jpg);
+    background-size: cover;
+    height: 25vh;
+    width: 20vw;
+    margin-top: -25vh;
+    margin-left: 62vw;
+}
 
 .boton
 {
