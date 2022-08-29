@@ -3,7 +3,8 @@
     text-align: center;
     letter-spacing: 2px;
     color: rgb(23, 85, 162);
-    font-size: 40px;
+    font-size: 42px;
+    font-family: 'Acme', sans-serif;
 }
 
 .contenedor
@@ -27,11 +28,40 @@
     margin-top: -5vh;
 }
 
+.animacionsatelite
+{
+    height: 6vh;
+    width: 3vw;
+    background-image: url(./imagenes/satellite.png);
+    background-size: contain;
+    animation-name: satelite;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    margin-top: -10vh;
+}
+
+@keyframes satelite
+{
+    0%{transform: translate(0px,50px) rotate(360deg);}
+
+    20%{transform: translate(500px,50px) rotate(0deg);}
+
+    40%{transform: translate(510px, 50px) rotate(360deg);}
+
+    60%{transform: translate(510px,400px)rotate(0deg);}
+
+    80%{transform: translate(0px,400px)rotate(360deg);}
+
+    100%{transform: translate(0px,50px) rotate(0deg);}
+}
+
 #Parrafop
 {
     text-align: justify;
     color: rgb(0, 0, 0);
-    font-family: 'Vollkorn', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 27px;
     font-size: 20px;
     font: 0;
     padding-right: 12px;
@@ -42,7 +72,9 @@
 {
     text-align: justify;
     color: rgb(0, 0, 0);
-    font-family: 'Vollkorn', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 27px;
     font-size: 20px;
     font: 0;
     padding-right: 500px;
@@ -54,24 +86,12 @@
     text-align: left;
     letter-spacing: 0.5px;
     color: rgb(20, 77, 148); 
-    font-family: 'Vollkorn', serif;
-    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 23px;
     font: 0;
     padding-left: 12px;
 }
 
- /*Maquina Voladora
-.contenedorM1
-{
-    height: 23vh;
-    width: 41vh;
-    background-image: url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/02/nautilus-1.jpg?resize=640%2C360&quality=80&ssl=1");
-    background-size: contain;
-    background-position: center;
-    margin-left: 74vw;
-    margin-top: -140vh;
-}*/
-/*Animacion*/
 .contenedoranimacion
 {
     height: 24.5vh;
@@ -79,7 +99,7 @@
     background-image: url(http://www.mipetitmadrid.com/web_mipetitmadrid/docs/julio_verne_marta_1.jpg);
     background-size: 480px;
     animation-name: Globoanimacion;
-    animation-duration: 25s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     margin-left: 73vw;
     margin-top: -148vh;
@@ -87,11 +107,14 @@
 
 @keyframes Globoanimacion
 {
-    0%{transform: translateY(5px);}
+    0%{transform: translateY(-140px);}
 
     50%{transform: translateY(505px);}
+
+    100%{transform: translateY(-140px);}
 }
  
+
 .contenedorL1
 {
     height: 300px;
@@ -239,8 +262,8 @@
     text-align: left;
     letter-spacing: 0.5px;
     color: rgb(20, 77, 148); 
-    font-family: 'Vollkorn', serif;
-    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 23px;
     font: 0;
     padding-left: 12px;
     padding-top: 125vh;
@@ -249,7 +272,8 @@
 {
     text-align: justify;
     color: rgb(0, 0, 0);
-    font-family: 'Vollkorn', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 20px;
     font: 0;
     padding-right: 0px;
@@ -297,7 +321,8 @@
 {
     text-align: justify;
     color: rgb(0, 0, 0);
-    font-family: 'Vollkorn', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 20px;
     font: 0;
     padding-right: 0px;
@@ -346,7 +371,8 @@
 {
     text-align: justify;
     color: rgb(0, 0, 0);
-    font-family: 'Vollkorn', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 20px;
     font: 0;
     padding-right: 200px;
@@ -405,14 +431,17 @@
 
 a
 {
+    font-family: 'Acme', sans-serif;
+    font-size: larger;
     outline: none;
     text-decoration: dashed;
-    padding: 3px 12px 3px;
+    padding: 4px 16px 4px;
+    
 }
 a:link
 {
     background-color: rgb(221, 241, 253);
-    margin-left: 450px;
+    margin-left: 400px;
     letter-spacing: 2px;
 }
 a:focus, a:hover
