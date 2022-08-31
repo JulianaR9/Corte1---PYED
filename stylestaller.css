@@ -436,12 +436,14 @@ a
     text-decoration: dashed;
     padding: 4px 16px 4px;
     
+    
 }
 a:link
 {
     background-color: rgb(221, 241, 253);
     margin-left: 400px;
     letter-spacing: 2px;
+
 }
 a:focus, a:hover
 {
@@ -453,29 +455,58 @@ a:focus, a:hover
     border-bottom: 4px solid;
 }*/
 
+
+
 .animacionsatelite
 {
-    height: 6vh;
-    width: 3vw;
+    height: 5vh;
+    width: 2.5vw;
     background-image: url(./imagenes/satellite.png);
     background-size: contain;
     animation-name: satelite;
-    animation-duration: 15s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
-    margin-top: 0vh;
+    margin-top: -20vh;
 }
 
 @keyframes satelite
 {
     0%{transform: translate(0px,50px) rotate(360deg);}
 
-    20%{transform: translate(1850px,50px) rotate(0deg);}
+    20%{transform: translate(1750px,50px) rotate(0deg);}
 
-    40%{transform: translate(1850px, 50px) rotate(360deg);}
+    40%{transform: translate(1750px, 50px) rotate(360deg);}
 
-    60%{transform: translate(1850px,400px)rotate(0deg);}
+    60%{transform: translate(1750px,170px)rotate(0deg);}
 
-    80%{transform: translate(0px,400px)rotate(360deg);}
+    80%{transform: translate(0px,180px)rotate(360deg);}
 
     100%{transform: translate(0px,50px) rotate(0deg);}
+}
+
+.saturno
+{
+    height: 5vh;
+    width: 2.5vw;
+    background-image: url(./imagenes/saturn.png);
+    background-size: contain;
+    animation-name: saturno;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    margin-top:20vh;
+}
+
+@keyframes saturno
+{
+    0%{transform: translate(0px) rotate(0deg);}
+
+    
+    50%{transform: translate(350px) rotate(0deg);}
+
+
+    75%{transform: translate(1850px) rotate(0deg);}
+
+    100%{transform: translate(0px) rotate(0deg);}
+
+    
 }
