@@ -28,7 +28,7 @@
     margin-top: -5vh;
 }
 
-.animacionsatelite
+/*.animacionsatelite
 {
     height: 6vh;
     width: 3vw;
@@ -53,7 +53,7 @@
     80%{transform: translate(0px,400px)rotate(360deg);}
 
     100%{transform: translate(0px,50px) rotate(0deg);}
-}
+}*/
 
 #Parrafop
 {
@@ -452,3 +452,30 @@ a:focus, a:hover
 {
     border-bottom: 4px solid;
 }*/
+
+.animacionsatelite
+{
+    height: 6vh;
+    width: 3vw;
+    background-image: url(./imagenes/satellite.png);
+    background-size: contain;
+    animation-name: satelite;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    margin-top: 0vh;
+}
+
+@keyframes satelite
+{
+    0%{transform: translate(0px,50px) rotate(360deg);}
+
+    20%{transform: translate(1850px,50px) rotate(0deg);}
+
+    40%{transform: translate(1850px, 50px) rotate(360deg);}
+
+    60%{transform: translate(1850px,400px)rotate(0deg);}
+
+    80%{transform: translate(0px,400px)rotate(360deg);}
+
+    100%{transform: translate(0px,50px) rotate(0deg);}
+}
