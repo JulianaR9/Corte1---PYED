@@ -1,0 +1,13 @@
+.container
+{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.item
+{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
