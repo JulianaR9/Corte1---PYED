@@ -2,11 +2,13 @@
 {
     background-color: aqua;
     display: flex;
-    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: flex-end;
 }
 
 .item
 {
+    background-color: rgb(216, 183, 248);
     height: 50px;
     width: 50px;
     border: 1px solid black;
