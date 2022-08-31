@@ -12,8 +12,25 @@
 
 .item
 {
+    display: flex;
     background-color: rgb(216, 183, 248);
     height: 50px;
     width: 50px;
     border: 1px solid black;
+    text-align: center;
+}
+
+.item1
+{
+    flex: 3;
+}
+
+.item2
+{
+    flex: 3;
+}
+
+.item3
+{
+    flex: 6;
 }
