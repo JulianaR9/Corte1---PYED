@@ -1,0 +1,119 @@
+.cajaimg
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 400px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    flex-direction: row;
+    align-content: center;
+}
+
+.item
+{
+    background-color: blueviolet;
+    height: 300px;
+    width: 400px;
+    border: 1px solid;
+}
+
+.cajatexto
+{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    height: 90px;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+.item
+{
+    background-color: white;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+}
+
+
+#titulo
+{
+    text-align: center;
+}
+
+.item1
+{
+    background-image: url(./imagenes/nevado.jpg);
+    background-size: cover;
+}
+
+.item2
+{
+    background-image: url(./imagenes/Valle\ del\ Cocora.jpg);
+    background-size: cover;
+}
+
+.item3
+{
+    background-image: url(./imagenes/Norcasia.jpg);
+    background-size: cover;
+}
+
+.item4
+{
+    background-image: url(./imagenes/Guiajira.jpg);
+    background-size: cover;
+}
+
+.item5
+{
+    background-image: url(./imagenes/Uramba\ Bahia.jpg);
+    background-size: cover;
+}
+
+.item6
+{
+    background-image: url(./imagenes/Mongui.jpg);
+    background-size: cover;
+}
+
+.item7
+{
+    background-image: url(./imagenes/serrania\ de\ chiribiquete.jpg);
+    background-size: cover;
+}
+
+.item8
+{
+    background-image: url(./imagenes/Guatavita.jpg);
+    background-size: cover;
+}
+
+.item9
+{
+    background-image: url(./imagenes/Isla\ Grande.jpg);
+    background-size: cover;
+}
+
+.item10
+{
+    background-image: url(./imagenes/nuqui.jpg);
+    background-size: cover;
+}
+
+.item11
+{
+    background-image: url(./imagenes/Cuidad\ Perdida.jpg);
+    background-size: cover;
+}
+
+.item12
+{
+    background-image: url(./imagenes/Guatape.jpg);
+    background-size: cover;
+}
