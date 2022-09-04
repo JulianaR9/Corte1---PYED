@@ -19,26 +19,26 @@
 }
 
 .containert {
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     display: flex;
     justify-content: space-evenly;
     width: auto;
-    height: 186px;
+    height: 143px;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: row;
-    align-content: center;
+    align-content: stretch;
 }
 
 .itemt {
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     font-family: 'Acme', sans-serif;
     font-weight: 600;
     line-height: 20px;
     height: 110px;
     width: 350px;
     text-align: justify;
-    padding: 20px 80px 30px;
+    padding: 0px 40px 30px;
 }
 
 #titulo
@@ -54,6 +54,7 @@
 {
     background-image: url(./imagenes/nevado.jpg);
     background-size: cover;
+    
 }
 
 .item2
