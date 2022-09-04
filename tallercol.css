@@ -32,6 +32,9 @@
 
 .itemt {
     background-color: rgb(255, 255, 255);
+    font-family: 'Acme', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
     height: 110px;
     width: 350px;
     text-align: justify;
@@ -41,6 +44,8 @@
 #titulo
 {
     text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: darkgreen;
 }
 
 
