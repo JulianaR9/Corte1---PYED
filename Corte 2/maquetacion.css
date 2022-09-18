@@ -14,12 +14,16 @@
     background-size: cover;
 }
 
-.formulario
+/*.formulario
 {
     height: 900px;
     width: 800px;
     background-color: bisque;
-    border: 4px;
-    
+}*/
+
+#Nombre
+{
+    font-size: 25px;
+    line-height: 40px;
 
 }
