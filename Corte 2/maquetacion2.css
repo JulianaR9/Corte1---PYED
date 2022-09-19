@@ -68,6 +68,33 @@ body
 .caja
 {
     float: left;
-    width: 350px;
-   margin-left: 40px;
+    width: 260px;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+
+.subtitulo
+{
+    background-color: rgba(0, 128, 0, 0.567);
+    border-radius: 8px;
+    height: 330px;
+  
+}
+
+.materiales
+{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.efecto
+{
+    margin-top: 20px;
+}
+.efecto:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
 }
