@@ -60,29 +60,6 @@ body
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*estilos para el cuerpo clasificacion del reciclaje*/
 
 .cuerpo
@@ -94,6 +71,7 @@ body
 {
     text-align: center;
     letter-spacing: 12px;
+    margin-top: 30px;
 }
 
 .caja
@@ -130,4 +108,27 @@ body
 {
     opacity: 0.6;
     cursor: pointer;
+}
+
+
+/*estilos para horarios de recoleccion de residuos */
+
+.cuerpo
+{
+    overflow: hidden;
+}
+
+.titulo2
+{
+    text-align: center;
+    letter-spacing: 12px;
+    margin-top: 150px;
+}
+
+.caja
+{
+    float: left;
+    width: 280px;
+    margin-left: 100px;
+    margin-top: 30px; 
 }
