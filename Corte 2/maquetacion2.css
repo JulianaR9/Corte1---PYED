@@ -154,7 +154,7 @@ body
 }
 
 
-/*estilos para Alarmar*/
+/*estilos para Alarma*/
 
 .cuerpo
 {
@@ -201,5 +201,58 @@ body
     
 }
 
+.imagen3:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*estilos para Puntos Cercanos*/
+
+.cuerpo
+{
+    overflow: hidden;
+}
+
+.titulo4
+{
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 150px;
+}
+
+
+.subtitulo4
+{
+    background-color: rgba(154, 214, 154, 0.319);
+    border-radius: 8px;
+    height: 240px;
+    width: 280px;
+    margin-left: -25px;
+  
+}
+
+.puntos
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 0;
+    letter-spacing: 2px;
+    margin-top: 0px;
+}
+
+.imagen4
+{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+
+
+.imagen4:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
 
 
