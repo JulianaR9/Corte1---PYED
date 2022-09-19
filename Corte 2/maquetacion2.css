@@ -57,3 +57,17 @@ body
     background-color: rgba(7, 161, 7, 0.467);
 }
 
+
+/*estilos para el cuerpo*/
+
+.cuerpo
+{
+    overflow: hidden;
+}
+
+.caja
+{
+    float: left;
+    width: 350px;
+   margin-left: 40px;
+}
