@@ -70,7 +70,7 @@ body
 .titulo
 {
     text-align: center;
-    letter-spacing: 12px;
+    letter-spacing: 10px;
     margin-top: 30px;
 }
 
@@ -85,16 +85,17 @@ body
 
 .subtitulo
 {
-    background-color: rgba(0, 128, 0, 0.319);
+    background-color: rgba(154, 214, 154, 0.319);
     border-radius: 8px;
     height: 330px;
     width: 300px;
+    margin-left: -35px;
   
 }
 
 .materiales
 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 15px 0;
 }
@@ -106,7 +107,7 @@ body
 }
 .efecto:hover
 {
-    opacity: 0.6;
+    opacity: 0.5;
     cursor: pointer;
 }
 
@@ -121,14 +122,84 @@ body
 .titulo2
 {
     text-align: center;
-    letter-spacing: 12px;
+    letter-spacing: 10px;
     margin-top: 150px;
 }
 
-.caja
+
+
+.subtitulo2
 {
-    float: left;
+    background-color: rgba(154, 214, 154, 0.319);
+    border-radius: 8px;
+    height: 210px;
     width: 280px;
-    margin-left: 100px;
-    margin-top: 30px; 
+    margin-left: -25px;
+  
 }
+
+.horario
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 0;
+    letter-spacing: 4px;
+    margin-top: -20px;
+}
+
+.imagen
+{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+/*estilos para Alarmar*/
+
+.cuerpo
+{
+    overflow: hidden;
+}
+
+.titulo3
+{
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 150px;
+}
+
+
+.subtitulo3
+{
+    background-color: rgba(154, 214, 154, 0.319);
+    border-radius: 8px;
+    height: 240px;
+    width: 280px;
+    margin-left: -25px;
+  
+}
+
+.alarma
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 0;
+    letter-spacing: 3px;
+    margin-top: 0px;
+}
+
+.imagen2
+{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.imagen3
+{
+    margin-top: 5px;
+    margin-left: 100px;
+    
+}
+
+
+
