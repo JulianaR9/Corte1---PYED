@@ -26,6 +26,8 @@ body
 {
     float: left;
     padding: 10px;
+    margin-left: 50px;
+    margin-top: 15px;
 
 }
 
@@ -65,10 +67,16 @@ body
     overflow: hidden;
 }
 
+.titulo
+{
+    text-align: center;
+    letter-spacing: 12px;
+}
+
 .caja
 {
     float: left;
-    width: 260px;
+    width: 280px;
     margin-left: 100px;
     margin-top: 30px;
     
@@ -76,9 +84,10 @@ body
 
 .subtitulo
 {
-    background-color: rgba(0, 128, 0, 0.567);
+    background-color: rgba(0, 128, 0, 0.319);
     border-radius: 8px;
     height: 330px;
+    width: 300px;
   
 }
 
@@ -92,6 +101,7 @@ body
 .efecto
 {
     margin-top: 20px;
+    margin-left: 22px;
 }
 .efecto:hover
 {
