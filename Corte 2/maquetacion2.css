@@ -6,7 +6,7 @@
 
 body
 {
-    background-color: rgba(83, 217, 83, 0.117);
+    background-color: rgba(83, 217, 83, 0.06);
 }
 
 .container
@@ -18,7 +18,7 @@ body
 
 .superior
 {
-    background-color: rgba(7, 177, 7, 0.416);
+    background-color: rgba(22, 170, 22, 0.56);
     overflow: hidden;
 }
 
@@ -35,8 +35,8 @@ body
 /*estilos para el menu*/
 .menu
 {
-    float: right;
-    padding: 90px;
+    float: left;
+    padding: 98px;
 }
 
 .opciones li
@@ -48,15 +48,15 @@ body
 .opciones li a
 {
     color: black;
-    padding: 25px;
+    padding: 35px;
     text-decoration: none;
-    border: 1px solid black;
-    border-radius: 20px;
+    border: 2px solid rgb(12, 83, 4);
+    border-radius: 30px;
 }
 
 .opciones li a:hover
 {
-    background-color: rgba(7, 161, 7, 0.467);
+    background-color: rgba(8, 148, 8, 0.467);
 }
 
 
