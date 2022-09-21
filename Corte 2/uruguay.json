@@ -7,42 +7,42 @@
     [
         {
             "Titulo": "Copa_America",
-            "año":"1916"
+            "año":1916
         },
 
         {
             "Titulo": "Juegos_Olímpicos",
-            "año":"1924"
+            "año":1924
         },
 
         {
             "Titulo": "Juegos_Olímpicos",
-            "año":"1928"
+            "año":1928
         },
 
         {
             "Titulo": "Copa_del_Mundo",
-            "año":"1930"
+            "año":1930
         },
 
         {
             "Titulo": "Copa_America",
-            "año":"1942"
+            "año":1942
         },
 
         {
             "Titulo": "Copa_Oro",
-            "año":"1980"
+            "año":1980
         },
 
         {
             "Titulo": "Copa_America",
-            "año":"1987"
+            "año":1987
         },
 
         {
             "Titulo": "Copa_America",
-            "año":"2011"
+            "año":2011
         }
     ],
 
@@ -51,12 +51,11 @@
     "Escudo": "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Uruguay#/media/Archivo:Flag_of_Uruguay.svg",
     "Abreviación": "AUF",
     "Goleador":
-    [
+    
         {
             "Nombre": "Luis_Suárez",
-            "Goles":"68"
-        }
-    ],
+            "Goles":68
+        },
 
     "Estadio":
     [
@@ -64,21 +63,129 @@
             "Nombre":"Estadio_Centenario",
             "Apodo":"El_campo_chivero",
             "Ubicación":"Montevideo",
-            "Capacidad": "60.235" 
+            "Capacidad": 60.235
         }
     ],
 
     "Jugadores":
     [
         {
-            "Nombre"
-            "Apellido"
-            "Edad"
-            "Estatura"
-            "Lugar_de_Nacimiento"
-            "Posición"
-            
+            "Nombre":"Luis",
+            "Apellido":"Suárez",
+            "Edad":35,
+            "Altura":1.82,
+            "Lugar_de_nacimiento":"Salto",
+            "Posición":"Delantero_Centro",
+            "Club":"Club_Nacional_de_Football",
+            "Número":9
+        },
+
+        {
+            "Nombre":"Matias",
+            "Apellido":"Vecino",
+            "Edad":31,
+            "Altura":1.87,
+            "Lugar_de_nacimiento":"San_Jacinto",
+            "Posición":"Medio_Centro",
+            "Club":"SS_Lazio",
+            "Número":8
+        },
+
+        {
+            "Nombre":"Edison",
+            "Apellido":"Cavani",
+            "Edad":35,
+            "Altura":1.84,
+            "Lugar_de_nacimiento":"Salto",
+            "Posición":"Delantero",
+            "Club":"Valencia_Club_de_Fútbol",
+            "Número":21
+        },
+
+        {
+            "Nombre":"Martin",
+            "Apellido":"Cáceres",
+            "Edad":35,
+            "Altura":1.80,
+            "Lugar_de_nacimiento":"Montevideo",
+            "Posición":"Defensa_Central",
+            "Club":"Los_Angeles_galaxy",
+            "Número":22
+        },
+
+        {
+            "Nombre":"Federico",
+            "Apellido":"Valverde",
+            "Edad":24,
+            "Altura":1.82,
+            "Lugar_de_nacimiento":"Montevideo",
+            "Posición":"Mediocentro",
+            "Club":"Real_Madrid",
+            "Número":15
+        },
+
+        {
+            "Nombre":"Diego",
+            "Apellido":"Rossi",
+            "Edad":24,
+            "Altura":1.70,
+            "Lugar_de_nacimiento":"Montevideo",
+            "Posición":"Extremo Izquierdo",
+            "Club":"Fenerbahce",
+            "Número":16
+        },
+
+        {
+            "Nombre":"Matias",
+            "Apellido":"Viña",
+            "Edad":24,
+            "Altura":1.82,
+            "Lugar_de_nacimiento":"Empalme Olmos",
+            "Posición":"Lateral Izquierdo",
+            "Club":"As Roma",
+            "Número":17
+        },
+        {
+            "Nombre":"Leandro",
+            "Apellido":"Cabrera",
+            "Edad":31,
+            "Altura":1.90,
+            "Lugar_de_nacimiento":"Montevideo",
+            "Posición":"Defensa central",
+            "Club":"CF America",
+            "Número":6
+        },
+        {
+            "Nombre":"Lucas",
+            "Apellido":"Torreira",
+            "Edad":26,
+            "Altura":1.66,
+            "Lugar_de_nacimiento":"Fray Bentos",
+            "Posición":"Centro",
+            "Club":"Galatasaray",
+            "Número":14
+        },
+        {
+            "Nombre":"Guillermo",
+            "Apellido":"Varela",
+            "Edad":29,
+            "Altura":1.73,
+            "Lugar_de_nacimiento":"Montevideo",
+            "Posición":"Lateral derecho",
+            "Club":"Regatas do Flamengo",
+            "Número":4
+        },
+        {
+            "Nombre":"Facundo",
+            "Apellido":"Pellistri",
+            "Edad":20,
+            "Altura":1.74,
+            "Lugar_de_nacimiento":"Montevideo",
+            "Posición":"Extremo Derecho",
+            "Club":"Manchester United",
+            "Número":11
         }
+
     ]
     
 
