@@ -1,32 +1,32 @@
 {
-    "Nombre":"Asociación_Uruguaya_de_Fútbol",
+    "Nombre":"Asociación Uruguaya de Fútbol",
     "Pais":"Uruguay",
-    "Apodos":["La_Celeste","La_garra_charrúa","Los_charrúas"],
+    "Apodos":["La Celeste","La garra charrúa","Los charrúas"],
     "Colores":["Celeste","Negro","Blanco"],
     "Titulos":
     [
         {
-            "Titulo": "Copa_America",
+            "Titulo": "Copa America",
             "año":1916
         },
 
         {
-            "Titulo": "Juegos_Olímpicos",
+            "Titulo": "Juegos Olímpicos",
             "año":1924
         },
 
         {
-            "Titulo": "Juegos_Olímpicos",
+            "Titulo": "Juegos Olímpicos",
             "año":1928
         },
 
         {
-            "Titulo": "Copa_del_Mundo",
+            "Titulo": "Copa del Mundo",
             "año":1930
         },
 
         {
-            "Titulo": "Copa_America",
+            "Titulo": "Copa America",
             "año":1942
         },
 
@@ -36,32 +36,32 @@
         },
 
         {
-            "Titulo": "Copa_America",
+            "Titulo": "Copa America",
             "año":1987
         },
 
         {
-            "Titulo": "Copa_America",
+            "Titulo": "Copa America",
             "año":2011
         }
     ],
 
-    "Capitán":"Diego_Godín",
-    "Entrenador":"Diego_Alonso",
+    "Capitán":"Diego Godín",
+    "Entrenador":"Dieg Alonso",
     "Escudo": "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Uruguay#/media/Archivo:Flag_of_Uruguay.svg",
     "Abreviación": "AUF",
     "Goleador":
     
         {
-            "Nombre": "Luis_Suárez",
+            "Nombre": "Luis Suárez",
             "Goles":68
         },
 
     "Estadio":
     [
         {
-            "Nombre":"Estadio_Centenario",
-            "Apodo":"El_campo_chivero",
+            "Nombre":"Estadio Centenario",
+            "Apodo":"El campo chivero",
             "Ubicación":"Montevideo",
             "Capacidad": 60.235
         }
@@ -76,7 +76,7 @@
             "Altura":1.82,
             "Lugar_de_nacimiento":"Salto",
             "Posición":"Delantero_Centro",
-            "Club":"Club_Nacional_de_Football",
+            "Club":"Club Nacional de Football",
             "Número":9
         },
 
@@ -85,9 +85,9 @@
             "Apellido":"Vecino",
             "Edad":31,
             "Altura":1.87,
-            "Lugar_de_nacimiento":"San_Jacinto",
-            "Posición":"Medio_Centro",
-            "Club":"SS_Lazio",
+            "Lugar_de_nacimiento":"San Jacinto",
+            "Posición":"Medio Centro",
+            "Club":"SS Lazio",
             "Número":8
         },
 
@@ -98,7 +98,7 @@
             "Altura":1.84,
             "Lugar_de_nacimiento":"Salto",
             "Posición":"Delantero",
-            "Club":"Valencia_Club_de_Fútbol",
+            "Club":"Valencia Club de Fútbol",
             "Número":21
         },
 
@@ -109,7 +109,7 @@
             "Altura":1.80,
             "Lugar_de_nacimiento":"Montevideo",
             "Posición":"Defensa_Central",
-            "Club":"Los_Angeles_galaxy",
+            "Club":"Los Angeles galaxy",
             "Número":22
         },
 
@@ -120,7 +120,7 @@
             "Altura":1.82,
             "Lugar_de_nacimiento":"Montevideo",
             "Posición":"Mediocentro",
-            "Club":"Real_Madrid",
+            "Club":"Real Madrid",
             "Número":15
         },
 
@@ -186,13 +186,6 @@
             "Número":11
         }
 
-    ]
-    
-
-
-
-
-
-
+    ] 
 
 }
