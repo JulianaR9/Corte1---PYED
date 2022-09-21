@@ -47,7 +47,7 @@
     ],
 
     "Capitán":"Diego Godín",
-    "Entrenador":"Dieg Alonso",
+    "Entrenador":"Diego Alonso",
     "Escudo": "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Uruguay#/media/Archivo:Flag_of_Uruguay.svg",
     "Abreviación": "AUF",
     "Goleador":
@@ -58,14 +58,13 @@
         },
 
     "Estadio":
-    [
+    
         {
             "Nombre":"Estadio Centenario",
             "Apodo":"El campo chivero",
             "Ubicación":"Montevideo",
-            "Capacidad": 60.235
-        }
-    ],
+            "Capacidad": 60235
+        },
 
     "Jugadores":
     [
@@ -75,7 +74,7 @@
             "Edad":35,
             "Altura":1.82,
             "Lugar_de_nacimiento":"Salto",
-            "Posición":"Delantero_Centro",
+            "Posición":"Delantero centro",
             "Club":"Club Nacional de Football",
             "Número":9
         },
@@ -108,7 +107,7 @@
             "Edad":35,
             "Altura":1.80,
             "Lugar_de_nacimiento":"Montevideo",
-            "Posición":"Defensa_Central",
+            "Posición":"Defensa Central",
             "Club":"Los Angeles galaxy",
             "Número":22
         },
