@@ -1,0 +1,54 @@
+{
+    "Nombre":"Asociación_Uruguaya_de_Fútbol",
+    "Pais":"Uruguay",
+    "Apodos":["La_Celeste","La_garra_charrúa","Los_charrúas"],
+    "Colores":["Celeste","Negro","Blanco"],
+    "Titulos":
+    [
+        {
+            "Titulo": "Copa_America",
+            "año":"1916"
+        },
+
+        {
+            "Titulo": "Juegos_Olímpicos",
+            "año":"1924"
+        },
+
+        {
+            "Titulo": "Juegos_Olímpicos",
+            "año":"1928"
+        },
+
+        {
+            "Titulo": "Copa_del_Mundo",
+            "año":"1930"
+        },
+
+        {
+            "Titulo": "Copa_America",
+            "año":"1942"
+        },
+
+        {
+            "Titulo": "Copa_Oro",
+            "año":"1980"
+        },
+
+        {
+            "Titulo": "Copa_America",
+            "año":"1987"
+        },
+
+        {
+            "Titulo": "Copa_America",
+            "año":"2011"
+        }
+    ],
+
+    "Capitan":"",
+
+
+
+
+}
