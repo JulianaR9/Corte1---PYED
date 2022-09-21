@@ -46,7 +46,44 @@
         }
     ],
 
-    "Capitan":"",
+    "Capitán":"Diego_Godín",
+    "Entrenador":"Diego_Alonso",
+    "Escudo": "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Uruguay#/media/Archivo:Flag_of_Uruguay.svg",
+    "Abreviación": "AUF",
+    "Goleador":
+    [
+        {
+            "Nombre": "Luis_Suárez",
+            "Goles":"68"
+        }
+    ],
+
+    "Estadio":
+    [
+        {
+            "Nombre":"Estadio_Centenario",
+            "Apodo":"El_campo_chivero",
+            "Ubicación":"Montevideo",
+            "Capacidad": "60.235" 
+        }
+    ],
+
+    "Jugadores":
+    [
+        {
+            "Nombre"
+            "Apellido"
+            "Edad"
+            "Estatura"
+            "Lugar_de_Nacimiento"
+            "Posición"
+            
+        }
+    ]
+    
+
+
+
 
 
 
