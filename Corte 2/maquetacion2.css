@@ -18,7 +18,7 @@ body
 
 .superior
 {
-    background-color: rgba(22, 170, 22, 0.56);
+    background-color: rgba(18, 147, 18, 0.742);
     overflow: hidden;
 }
 
@@ -51,12 +51,12 @@ body
     padding: 35px;
     text-decoration: none;
     border: 2px solid rgb(12, 83, 4);
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .opciones li a:hover
 {
-    background-color: rgba(8, 148, 8, 0.467);
+    background-color: rgba(9, 125, 9, 0.467);
 }
 
 
@@ -183,7 +183,7 @@ body
 .card .back
 {
     transform: perspective(600px) rotateY(180deg);
-    background: rgb(3, 133, 3);
+    background: rgba(3, 133, 3, 0.742);
     padding: 15px;
     color: white;
     display: flex;
