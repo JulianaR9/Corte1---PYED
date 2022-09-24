@@ -25,7 +25,7 @@ body
 .card .face
 {
     position: absolute;
-    width: 100%;
+    width: 112%;
     height: 100%;
     backface-visibility: hidden;
     border-radius: 10px;
