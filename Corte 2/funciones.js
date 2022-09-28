@@ -10,5 +10,5 @@ function convertirTexto()
 function mayusculas(txt)
 {
     return txt.toUpperCase();
-
 }
+
