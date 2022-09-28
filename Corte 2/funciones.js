@@ -9,6 +9,7 @@ function convertirTexto()
     console.log("TercerCaracter",obtenerCaracter(texto,2));
     console.log("extraccion",extraer(texto));
     console.log("reemplazar",reemplazar(texto));
+    console.log("palabras",dividir(texto));
 }
 
 
@@ -46,7 +47,7 @@ function reemplazar(texto)
     return texto.replace("martes","viernes")
 }
 
-function dividir()
+function dividir(texto)
 {
-    
+    return texto.split(" ")
 }
