@@ -12,3 +12,9 @@ function mayusculas(txt)
     return txt.toUpperCase();
 }
 
+function contarlongitud()
+{
+    texto
+    return texto.len
+}
+
