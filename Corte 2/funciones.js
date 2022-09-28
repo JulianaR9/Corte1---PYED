@@ -7,6 +7,8 @@ function convertirTexto()
     
     console.log("longitud",contarLongitud(texto))
     console.log("TercerCaracter",obtenerCaracter(texto,2));
+    console.log("extraccion",extraer(texto));
+    console.log("reemplazar",reemplazar(texto));
 }
 
 
@@ -24,6 +26,27 @@ function contarLongitud()
 
 function obtenerCaracter(texto,posicion)
 {
-    return texto.charAt(posicion);
+    if (texto.charAt(posicion)=="")
+    {
+        return null;
+    }
+    else
+    {
+        return texto.charAt(posicion);
+    } 
 }
 
+function extraer(texto)
+{
+    return texto.substring(2,5)
+}
+
+function reemplazar(texto)
+{
+    return texto.replace("martes","viernes")
+}
+
+function dividir()
+{
+    
+}
