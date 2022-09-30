@@ -36,7 +36,8 @@ body
 .menu
 {
     float: left;
-    padding: 98px;
+    margin-top: 130px;
+    margin-left: 50px;
 }
 
 .opciones li
@@ -48,7 +49,7 @@ body
 .opciones li a
 {
     color: black;
-    padding: 35px;
+    padding: 25px;
     text-decoration: none;
     border: 2px solid rgb(12, 83, 4);
     border-radius: 20px;
