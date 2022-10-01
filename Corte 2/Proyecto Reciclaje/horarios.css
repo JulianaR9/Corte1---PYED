@@ -37,19 +37,19 @@ body
     float: left;
     width: 280px;
     margin-left: 220px;
-    margin-top: 30px;
+    margin-top: 160px;
     
 }
 
 .subtitulo2
 {
     background-color: rgba(154, 214, 154, 0.319);
+    font-size: 20px;
     border-radius: 8px;
-    height: 380px;
+    height: 400px;
     width: 440px;
     margin-left: -200px;
-    
-  
+ 
 }
 
 .horario
@@ -58,11 +58,11 @@ body
     text-align: center;
     padding: 15px 0;
     letter-spacing: 4px;
-    margin-top: 80px;
+    margin-top: -6px;
 }
 
 .imagen
 {
     margin-top: 40px;
-    margin-left: 150px;
+    margin-left: 80px;
 }
