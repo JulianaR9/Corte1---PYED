@@ -1,8 +1,69 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgba(83, 217, 83, 0.06);
+}
+
+.container
+{
+    width: 1200px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.superior
+{
+    background-color: rgba(18, 147, 18, 0.742);
+    overflow: hidden;
+}
+
+.logo
+{
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+
+
+
+/*estilos para el menu*/
+.menu
+{
+    float: left;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.opciones li
+{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a
+{
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.opciones li a:hover
+{
+    background-color: rgba(9, 125, 9, 0.467);
+}
+
+
+
 /*estilos para el formulario*/
-
-
-
-
 .form
 {
     background-color: rgb(161, 78, 78);
