@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+header
+{
+    display: flex;
+    height: 120px;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.nombre-empresa
+{
+    padding-left: 40px;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img
+{
+    height: 100px;
+   
+}
+
+nav a
+{
+    font-weight: 600;
+    padding-right: 80px;
+     
+}
+
+nav a:hover
+{
+    color: rgb(183, 237, 183);
+}
