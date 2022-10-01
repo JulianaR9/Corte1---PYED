@@ -1,13 +1,41 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
 }
 
 body
 {
-    background-color: rgba(83, 217, 83, 0.06);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
 }
+
+header
+{
+    display: flex;
+    height: 120px;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo
+{
+    display: flex;
+}
+
+.logo img
+{
+    height: 100px;
+}
+
+
 
 /*estilos para el cuerpo clasificacion del reciclaje*/
 
@@ -38,24 +66,7 @@ body
   
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    
 
-}
-
-body
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    
-
-}
 
 .card
 {
