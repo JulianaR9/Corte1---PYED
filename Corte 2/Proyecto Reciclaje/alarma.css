@@ -68,10 +68,12 @@ nav a:hover
     letter-spacing: 10px;
     margin-top: 100px;
     
+    
 }
 
 .alarma
 {
-    margin-left: 45%;
+    margin-left: 44%;
     margin-top: 40px;   
+    font-size: 16px;
 }
