@@ -44,7 +44,7 @@ let animales2 =
         "peso_promedio_KG":"2",
         "numero_patas":"4",
         "color_predominante":"verde",
-        "alimentacion":"insectos" ,
+        "alimentacion":"insectívoro" ,
         "habitat":"bosques, selvas y llanuras",
     },
     {
@@ -95,15 +95,20 @@ let animales2 =
     {
         "nombre":"jirafa",
         "imagen":"https://www.planetacurioso.com/wp-content/uploads/2017/02/JIRAFA-CURIOSIDADES-MANCHAS-compressor.jpg",
-        "peso_promedio_KG":"230",
+        "peso_promedio_KG":"1500",
         "numero_patas":"4",
         "color_predominante":"café",
         "alimentacion":"herbívoro" ,
-        "habitat":"océano",
+        "habitat":"sabana africana",
     },
     {
-        nombre:"oso panda",
-        imagen:"https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5f3245925bafe8102efb7519/1-oso-panda-comiendo.jpg"
+        "nombre":"oso panda",
+        "imagen":"https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5f3245925bafe8102efb7519/1-oso-panda-comiendo.jpg",
+        "peso_promedio_KG":"100",
+        "numero_patas":"4",
+        "color_predominante":"blanco",
+        "alimentacion":"herbívoro",
+        "habitat":"bosques de bambú",
     }
 ]
 
@@ -114,7 +119,7 @@ function buscaranimales()
     let acumulador = "";
     animales2.forEach(animal => {
         if(animal.nombre.toLowerCase().startsWith(texto.toLowerCase()) && texto!==""){
-            acumulador = acumulador + `<img src="${animal.imagen}" width="400"/><h3>${animal.nombre}</h3>`
+            acumulador = acumulador + `<img src="${animal.imagen}" width="400"/><h3>Nombre :${animal.nombre}</h3><h3>Peso promedio :${animal.peso_promedio_KG}</h3><h3>Número de patas :${animal.numero_patas}</h3><h3>Color predominante :${animal.color_predominante}</h3><h3>Alimentación :${animal.alimentacion}</h3><h3>Habitat :${animal.habitat}</h3>`
         }
     });
     
