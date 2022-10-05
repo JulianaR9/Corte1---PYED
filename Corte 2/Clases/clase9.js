@@ -63,7 +63,7 @@ function buscaranimales()
     let acumulador = "";
     animales2.forEach(animal => {
         if(animal.nombre.startsWith(texto) && texto!==""){
-            acumulador = acumulador + 
+            acumulador = acumulador + `<img src="${animal.imagen}" width="400"/><h3>${animal.nombre}</h3>`
 
         }
 
