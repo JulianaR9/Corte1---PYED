@@ -18,55 +18,61 @@ mostraranimales();
 
 
 
-
 let animales2 =
  [
     {
         nombre:"delfin",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dolphinaris.com%2Fes%2Fcuriosidades-sobre-los-delfines%2F&psig=AOvVaw0aCeqER7mHKFY9GL5sx9KS&ust=1665014951243000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCOCXk5_mx_oCFQAAAAAdAAAAABAD"
+        imagen:"https://estaticos.muyinteresante.es/uploads/images/gallery/5d9208eb5cafe81a0f3c986a/delfin0_0.jpg"
     },
     {
         nombre:"mariposa",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elagoradiario.com%2Fagora-forum%2Fsabias-que%2Fgotas-lluvia-mecanismo-alas-de-mariposa%2F&psig=AOvVaw1dAGTmZlsEd5hHQVg0uWtL&ust=1665014994327000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCLCG66_mx_oCFQAAAAAdAAAAABAD"
+        imagen:"https://www.anipedia.net/imagenes/significado-mariposas.jpg"
     },
     {
         nombre:"camaleon",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fculturacientifica.com%2F2016%2F01%2F28%2Fsi-son-tan-buenos-escondiendose-como-sabemos-que-existen-los-camaleones%2F&psig=AOvVaw2ZWFw-78QD-NjKn1NOc4Sd&ust=1665015032073000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJCt7sLmx_oCFQAAAAAdAAAAABAD"
-    },{
+        imagen:"https://culturacientifica.com/app/uploads/2016/01/camaleones.jpg"
+    },
+    {
         nombre:"tortuga",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fallyouneedisbiology.wordpress.com%2F2015%2F07%2F29%2Fciclo-tortuga-marina%2F&psig=AOvVaw3yUgPpLWGB31jbXYXhhi0i&ust=1665015080043000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNiMtdbmx_oCFQAAAAAdAAAAABAD"
-    },{
+        imagen:"https://allyouneedisbiology.files.wordpress.com/2015/07/martin_caretta_2000x13391.jpg?w=1038&h=576&crop=1"
+    },
+    {
         nombre:"koala",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldwildlife.org%2Fdescubre-wwf%2Fhistorias%2Fincluyen-a-los-koalas-en-la-lista-de-especies-en-peligro-de-extincion&psig=AOvVaw1kx6XKmsf-NIFCBNE4GI8K&ust=1665015097745000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMCS4uPmx_oCFQAAAAAdAAAAABAD"
-    },{
+        imagen:"https://www.elagoradiario.com/wp-content/uploads/2019/08/Koala-1140x600.jpg"
+    },
+    {
         nombre:"medusa",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.expertoanimal.com%2Fcuriosidades-de-las-medusas-25487.html&psig=AOvVaw3VgWNUJ3AL4g8AAtcbAndt&ust=1665015130245000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNjdvfTmx_oCFQAAAAAdAAAAABAS"
-    },{
+        imagen:"https://www.elagoradiario.com/wp-content/uploads/2021/08/medusa-1140x600.jpg"
+    },
+    {
         nombre:"pantera",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Frevistadiners.com.co%2Fcultura%2Farchivo%2F59411_como-ser-una-pantera-negra-en-los-negocios%2F&psig=AOvVaw0FhYNSTtbqNIFytu5HMuag&ust=1665015174170000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJjNzoXnx_oCFQAAAAAdAAAAABAD"
-    },{
+        imagen:"https://i0.wp.com/revistadiners.com.co/wp-content/uploads/2018/09/pantera_200x800.jpg?fit=1200%2C800&ssl=1"
+    },
+    {
         nombre:"ardilla",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muyinteresante.es%2Fmascotas%2Ffotos%2Fcuidados-basicos-de-la-ardilla&psig=AOvVaw0VetV0fi8_PyVs8f-wwHOW&ust=1665015197421000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKi6-o_nx_oCFQAAAAAdAAAAABAT"
-    },{
+        imagen:"https://t1.ea.ltmcdn.com/es/posts/3/6/7/donde_viven_las_ardillas_25763_orig.jpg"
+    },
+    {
         nombre:"jirafa",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.planetacurioso.com%2F25-curiosidades-de-la-jirafa-que-desconocias%2F&psig=AOvVaw2aRrh-ss55xhzWIJTDWx4O&ust=1665015308813000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMDe9sPnx_oCFQAAAAAdAAAAABAN"
-    },{
+        imagen:"https://www.planetacurioso.com/wp-content/uploads/2017/02/JIRAFA-CURIOSIDADES-MANCHAS-compressor.jpg"
+    },
+    {
         nombre:"oso panda",
-        imagen:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muyinteresante.es%2Fnaturaleza%2Ffotos%2Fcuriosidades-sobre-los-osos-panda&psig=AOvVaw2bzODOFtUA1Wo7RJE0kHCs&ust=1665015278884000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCOiGqLfnx_oCFQAAAAAdAAAAABAD"
+        imagen:"https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5f3245925bafe8102efb7519/1-oso-panda-comiendo.jpg"
     }
 ]
 
 function buscaranimales()
 {
-    let animales2 = document.querySelector.value;
+    let contenedor = document.querySelector("#animalesbusqueda");
     let texto = document.querySelector("#buscador").value;
     let acumulador = "";
     animales2.forEach(animal => {
-        if(animal.nombre.startsWith(texto) && texto!==""){
+        if(animal.nombre.toLowerCase().startsWith(texto.toLowerCase()) && texto!==""){
             acumulador = acumulador + `<img src="${animal.imagen}" width="400"/><h3>${animal.nombre}</h3>`
         }
     });
     
-    animalesbusqueda.innertHtml=acumulador
+    contenedor.innerHTML=acumulador;
 }
 
