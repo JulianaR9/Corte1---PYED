@@ -21,7 +21,7 @@ mostraranimales();
 let animales2 =
  [
     {
-        "nombre":"delfin",
+        "nombre":"Delfin",
         "imagen":"https://estaticos.muyinteresante.es/uploads/images/gallery/5d9208eb5cafe81a0f3c986a/delfin0_0.jpg",
         "peso_promedio_KG":"140",
         "numero_patas":"0",
@@ -30,7 +30,7 @@ let animales2 =
         "habitat":"océano",
     },
     {
-        "nombre":"elefante",
+        "nombre":"Elefante",
         "imagen":"https://static.nationalgeographic.es/files/styles/image_3200/public/01-wildlife-watch-elephant-hides-africa.jpg?w=1900&h=1256",
         "peso_promedio_KG":"6000",
         "numero_patas":"4",
@@ -39,7 +39,7 @@ let animales2 =
         "habitat":"selvas y sabanas",
     },
     {
-        "nombre":"camaleon",
+        "nombre":"Camaleon",
         "imagen":"https://culturacientifica.com/app/uploads/2016/01/camaleones.jpg",
         "peso_promedio_KG":"2",
         "numero_patas":"4",
@@ -48,7 +48,7 @@ let animales2 =
         "habitat":"bosques, selvas y llanuras",
     },
     {
-        "nombre":"tortuga marina",
+        "nombre":"Tortuga marina",
         "imagen":"https://allyouneedisbiology.files.wordpress.com/2015/07/martin_caretta_2000x13391.jpg?w=1038&h=576&crop=1",
         "peso_promedio_KG":"230",
         "numero_patas":"4",
@@ -57,7 +57,7 @@ let animales2 =
         "habitat":"océano",
     },
     {
-        "nombre":"koala",
+        "nombre":"Koala",
         "imagen":"https://www.elagoradiario.com/wp-content/uploads/2019/08/Koala-1140x600.jpg",
         "peso_promedio_KG":"15",
         "numero_patas":"4",
@@ -66,16 +66,16 @@ let animales2 =
         "habitat":"bosque",
     },
     {
-        "nombre":"medusa",
+        "nombre":"Medusa",
         "imagen":"https://www.elagoradiario.com/wp-content/uploads/2021/08/medusa-1140x600.jpg",
         "peso_promedio_KG":"200",
         "numero_patas":"0",
-        "color_predominante":"azul",
+        "color_predominante":"rosa",
         "alimentacion":"carnívoro" ,
         "habitat":"océano",
     },
     {
-        "nombre":"pantera",
+        "nombre":"Pantera",
         "imagen":"https://i0.wp.com/revistadiners.com.co/wp-content/uploads/2018/09/pantera_200x800.jpg?fit=1200%2C800&ssl=1",
         "peso_promedio_KG":"31",
         "numero_patas":"4",
@@ -84,7 +84,7 @@ let animales2 =
         "habitat":"selva",
     },
     {
-        "nombre":"ardilla",
+        "nombre":"Ardilla",
         "imagen":"https://t1.ea.ltmcdn.com/es/posts/3/6/7/donde_viven_las_ardillas_25763_orig.jpg",
         "peso_promedio_KG":"1",
         "numero_patas":"4",
@@ -93,7 +93,7 @@ let animales2 =
         "habitat":"bosques",
     },
     {
-        "nombre":"jirafa",
+        "nombre":"Jirafa",
         "imagen":"https://www.planetacurioso.com/wp-content/uploads/2017/02/JIRAFA-CURIOSIDADES-MANCHAS-compressor.jpg",
         "peso_promedio_KG":"1500",
         "numero_patas":"4",
@@ -119,7 +119,7 @@ function buscaranimales()
     let acumulador = "";
     animales2.forEach(animal => {
         if(animal.nombre.toLowerCase().startsWith(texto.toLowerCase()) && texto!==""){
-            acumulador = acumulador + `<img src="${animal.imagen}" width="400"/><h3>Nombre :${animal.nombre}</h3><h3>Peso promedio kg :${animal.peso_promedio_KG}</h3><h3>Número de patas :${animal.numero_patas}</h3><h3>Color predominante :${animal.color_predominante}</h3><h3>Alimentación :${animal.alimentacion}</h3><h3>Habitat :${animal.habitat}</h3>`
+            acumulador = acumulador + `<img src="${animal.imagen}" width="400"/><h3>Nombre: ${animal.nombre}</h3><h3>Peso promedio kg: ${animal.peso_promedio_KG}</h3><h3>Número de patas: ${animal.numero_patas}</h3><h3>Color predominante: ${animal.color_predominante}</h3><h3>Alimentación: ${animal.alimentacion}</h3><h3>Habitat: ${animal.habitat}</h3>`
         }
     });
     
