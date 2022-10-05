@@ -119,7 +119,7 @@ function buscaranimales()
     let acumulador = "";
     animales2.forEach(animal => {
         if(animal.nombre.toLowerCase().startsWith(texto.toLowerCase()) && texto!==""){
-            acumulador = acumulador + `<img src="${animal.imagen}" width="400"/><h3>Nombre :${animal.nombre}</h3><h3>Peso promedio :${animal.peso_promedio_KG}</h3><h3>Número de patas :${animal.numero_patas}</h3><h3>Color predominante :${animal.color_predominante}</h3><h3>Alimentación :${animal.alimentacion}</h3><h3>Habitat :${animal.habitat}</h3>`
+            acumulador = acumulador + `<img src="${animal.imagen}" width="400"/><h3>Nombre :${animal.nombre}</h3><h3>Peso promedio kg :${animal.peso_promedio_KG}</h3><h3>Número de patas :${animal.numero_patas}</h3><h3>Color predominante :${animal.color_predominante}</h3><h3>Alimentación :${animal.alimentacion}</h3><h3>Habitat :${animal.habitat}</h3>`
         }
     });
     
