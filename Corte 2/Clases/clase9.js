@@ -59,8 +59,13 @@ let animales2 =
 function buscaranimales()
 {
     let animales2 = document.querySelector.value;
-    let texto = document.querySelector("#buscador").value
-    animales2.forEach(animal =>{
+    let texto = document.querySelector("#buscador").value;
+    let acumulador = "";
+    animales2.forEach(animal => {
+        if(animal.nombre.startsWith(texto) && texto!==""){
+            acumulador = acumulador + 
+
+        }
 
     });
     
