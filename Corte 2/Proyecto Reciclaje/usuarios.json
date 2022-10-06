@@ -1,5 +1,23 @@
 [
     {
-       //arreglo de usuarios 
+        "Nombre":"Ana Rodriguez",
+        "Direccion":"calle 50a sur 28-46",
+        "Telefono":3112567392,
+        "Dia":"Viernes",
+        "Hora":"4:30 pm",
+        "Elementos":
+        [
+            {
+                "Nombre":"plastico",
+                "Cantidad_KG":"1"
+            },
+
+            {
+                "Nombre":"metal",
+                "Cantidad_KG":"2"
+            }
+        ] 
     }
+
+
 ]
