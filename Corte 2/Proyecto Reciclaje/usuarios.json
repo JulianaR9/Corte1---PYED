@@ -1,7 +1,7 @@
 [
     {
         "Nombre":"Ana Rodriguez",
-        "Direccion":"Calle 50a sur 28-46",
+        "Direccion":"Calle 50 A sur 28-46",
         "Telefono":3112567392,
         "Dia":"Viernes",
         "Hora":"4:30 pm",
@@ -9,7 +9,7 @@
         [
             {
                 "Nombre":"Plastico",
-                "Cantidad_KG":"1"
+                "Cantidad_kg":"1"
             },
 
             {
@@ -21,7 +21,7 @@
 
     {
         "Nombre":"David Ruiz",
-        "Direccion":"",
+        "Direccion":"Calle 53 sur 34-80",
         "Telefono":3204689721,
         "Dia":"Lunes",
         "Hora":"6:30 pm",
@@ -29,7 +29,7 @@
         [
             {
                 "Nombre":"Papel",
-                "Cantidad_KG":"3"
+                "Cantidad_kg":"3"
             },
 
             {
@@ -41,39 +41,39 @@
 
     {
         "Nombre":"Daniel Malaver",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Carrera 38 sur 53-51",
+        "Telefono":3106544882,
+        "Dia":"Miércoles",
+        "Hora":"2:30 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Electronicos",
+                "Cantidad_kg":"2"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Metal",
+                "Cantidad_kg":"3"
             }
         ] 
     },
 
     {
         "Nombre":"Isabel Martínez",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
+        "Direccion":"Calle 50 B sur 36-24",
+        "Telefono":3002987554,
         "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Hora":"11:30 am",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Plastico",
+                "Cantidad_kg":"4"
             },
 
             {
-                "Nombre":"metal",
+                "Nombre":"Vidrio",
                 "Cantidad_kg":"2"
             }
         ] 
@@ -81,39 +81,39 @@
 
     {
         "Nombre":"Joaquín Rozo",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Carrera 35 sur 50-36",
+        "Telefono":3125759216,
+        "Dia":"Martes",
+        "Hora":"6:30 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Papel",
+                "Cantidad_kg":"6"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Plastico",
+                "Cantidad_kg":"4"
             }
         ] 
     },
 
     {
         "Nombre":"Antonia Garzón",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Carrera 36 A sur 52-08",
+        "Telefono":3115973244,
+        "Dia":"Miércoles",
+        "Hora":"10:00 am",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Metal",
+                "Cantidad_kg":"3"
             },
 
             {
-                "Nombre":"metal",
+                "Nombre":"Vidrio",
                 "Cantidad_kg":"2"
             }
         ] 
@@ -121,19 +121,19 @@
 
     {
         "Nombre":"Esteban Santana",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Calle 49 B sur 35-46",
+        "Telefono":3134285661,
+        "Dia":"Jueves",
+        "Hora":"7:00 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Plastico",
+                "Cantidad_kg":"4"
             },
 
             {
-                "Nombre":"metal",
+                "Nombre":"Electronicos",
                 "Cantidad_kg":"2"
             }
         ] 
@@ -141,79 +141,79 @@
 
     {
         "Nombre":"Jeronimo Callejas",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Calle 50 sur 34-64",
+        "Telefono":3146208012,
+        "Dia":"Lunes",
+        "Hora":"2:30 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Vidrio",
+                "Cantidad_kg":"6"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Papel",
+                "Cantidad_kg":"4"
             }
         ] 
     },
 
     {
         "Nombre":"Alejandra Molina",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
+        "Direccion":"Calle 56 sur 33-67",
+        "Telefono":3202488513,
         "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Hora":"11:30 am",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Plastico",
+                "Cantidad_kg":"4"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Electronicos",
+                "Cantidad_kg":"4"
             }
         ] 
     },
 
     {
         "Nombre":"Andrea Velez",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Carrera 52 sur 38-40",
+        "Telefono":3129693248,
+        "Dia":"Martes",
+        "Hora":"10:00 am",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Electronicos",
+                "Cantidad_KG":"2"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Metal",
+                "Cantidad_kg":"6"
             }
         ] 
     },
 
     {
         "Nombre":"Martin Gutiérrez",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Calle 52 G sur 35-40",
+        "Telefono":3102884628,
+        "Dia":"Jueves",
+        "Hora":"6:30 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Papel",
+                "Cantidad_kg":"6"
             },
 
             {
-                "Nombre":"metal",
+                "Nombre":"Vidrio",
                 "Cantidad_kg":"2"
             }
         ] 
@@ -221,59 +221,59 @@
 
     {
         "Nombre":"Rocio Quintero",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Calle 55 sur 34-84",
+        "Telefono":3139045836,
+        "Dia":"Miércoles",
+        "Hora":"2:30 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Metal",
+                "Cantidad_kg":"8"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Papel",
+                "Cantidad_kg":"4"
             }
         ] 
     },
 
     {
         "Nombre":"Federico Zamora",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
+        "Direccion":"Diagonal 56 bis sur 36-76",
+        "Telefono":31145013376,
         "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Hora":"6:30 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Vidrio",
+                "Cantidad_kg":"4"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Metal",
+                "Cantidad_kg":"6"
             }
         ] 
     },
 
     {
         "Nombre":"Daniela Castellanos",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Caller 54 A sur 34-26",
+        "Telefono":3137862412,
+        "Dia":"Miércoles",
+        "Hora":"9:30 am",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Papel",
+                "Cantidad_kg":"6"
             },
 
             {
-                "Nombre":"metal",
+                "Nombre":"Vidrio",
                 "Cantidad_kg":"2"
             }
         ] 
@@ -281,40 +281,40 @@
 
     {
         "Nombre":"Lucia Palacios",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
+        "Direccion":"Caller 50 A sur 35-32",
+        "Telefono":3105703542,
+        "Dia":"Martes",
         "Hora":"4:30 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Plastico",
+                "Cantidad_kg":"3"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Papel",
+                "Cantidad_kg":"6"
             }
         ] 
     },
 
     {
         "Nombre":"Pablo Gómez",
-        "Direccion":"calle 50a sur 28-46",
-        "Telefono":3112567392,
-        "Dia":"Viernes",
-        "Hora":"4:30 pm",
+        "Direccion":"Carrera 37 sur 50-37",
+        "Telefono":3204489234,
+        "Dia":"Martes",
+        "Hora":"6:30 pm",
         "Elementos":
         [
             {
-                "Nombre":"plastico",
-                "Cantidad_KG":"1"
+                "Nombre":"Papel",
+                "Cantidad_kg":"4"
             },
 
             {
-                "Nombre":"metal",
-                "Cantidad_kg":"2"
+                "Nombre":"Electronicos",
+                "Cantidad_kg":"4"
             }
         ] 
     }
